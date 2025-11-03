@@ -1,0 +1,39 @@
+/* Ini adalah kode CSS (untuk mengatur tampilan) */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0; /* Latar belakang abu-abu muda */
+    color: #333;
+    text-align: center;
+}
+
+header {
+    background-color: #007bff; /* Warna biru */
+    color: white;
+    padding: 20px;
+}
+
+main {
+    padding: 20px;
+}
+
+button {
+    background-color: #28a745; /* Warna hijau */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+footer {
+    background-color: #ccc;
+    color: #333;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
