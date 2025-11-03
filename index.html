@@ -3,48 +3,39 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portofolio Saya - Premastara</title>
+    <title>Web Dinamis - Menampilkan Data API</title>
     <link rel="stylesheet" href="style.css"> 
 </head>
 <body>
-
-    <nav>
-        <div class="logo">Portofolio PA</div>
-        <div class="nav-links">
-            <a href="#about">Tentang Saya</a>
-            <a href="#projects">Proyek</a>
-            <a href="#contact">Kontak</a>
-        </div>
-    </nav>
-
-    <section id="about" class="hero">
-        <img src="https://via.placeholder.com/150" alt="Foto Profil" class="profile-img">
-        <h1>Halo, Saya Premastara Abida</h1>
-        <p>Saya adalah seorang pengembang web pemula yang bersemangat dalam mempelajari Front-End Development (HTML, CSS, JavaScript).</p>
-        <a href="#projects" class="button">Lihat Proyek Saya</a>
-    </section>
-
-    <section id="projects" class="content-section">
-        <h2>Proyek Terbaru</h2>
-        <div class="project-item">
-            <h3>Proyek 1: Blog Resep</h3>
-            <p>Membuat blog sederhana dengan fokus pada tata letak yang bersih dan *mobile-friendly*.</p>
-        </div>
-        <div class="project-item">
-            <h3>Proyek 2: Kalkulator Sederhana</h3>
-            <p>Aplikasi web interaktif menggunakan JavaScript untuk fungsi penghitungan dasar.</p>
-        </div>
-    </section>
-
-    <section id="contact" class="content-section">
-        <h2>Hubungi Saya</h2>
-        <p>Email: premastara.abida@email.com</p>
-        <p>LinkedIn: /in/premastara</p>
-    </section>
+    
+    <header>
+        <h1>Daftar Pengguna dari API Publik</h1>
+        <p>Data dimuat secara dinamis menggunakan JavaScript Fetch API.</p>
+    </header>
+    
+    <main class="container">
+        <table>
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Nama</th>
+                    <th>Email</th>
+                    <th>Telepon</th>
+                    <th>Website</th>
+                </tr>
+            </thead>
+            <tbody id="data-table-body">
+                <tr>
+                    <td colspan="5">Memuat data...</td>
+                </tr>
+            </tbody>
+        </table>
+    </main>
 
     <footer>
-        <p>&copy; 2025 Premastara Abida | Dibuat dengan GitHub Pages</p>
+        <p>&copy; 2025 Premastara Abida</p>
     </footer>
 
+    <script src="data.js"></script> 
 </body>
 </html>
